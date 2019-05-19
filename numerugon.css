@@ -1,0 +1,163 @@
+
+#wrapper{
+    color:red;
+}
+
+a:hover {
+    color:blue;
+}
+select{
+    font-size: 40px;
+}
+
+#gameOvertext,#hittext{
+    position: absolute;
+    display:none;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+}
+
+.output{
+    position: absolute;
+    display:none;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    font-size:20px;
+}
+
+td {
+	padding: 10%;
+}
+
+#player{
+    position: absolute;
+    display:none;
+    font-size:70px;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-50%);  
+}
+
+.guessfield,.guessfield2{
+    display:none;
+    float:left;   
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #cccccc;
+    background-color: black;
+}
+
+#his{
+    position: absolute;
+    left: 35%;
+    top: 40%; 
+}
+
+.home{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    font-size:40px;
+}
+
+.btncursor,input{
+    cursor: pointer ; 
+}
+
+#setumei{
+    display:none;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    font-size:40px;
+}
+
+#back{
+    position: fixed;
+    display:none;
+    top:80%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    font-size:40px;
+}
+
+#sidenavi {
+    float: right;
+    width: 20%;
+    height: 600px;
+    margin: 10px 10px 10px 0px;
+    font-size:20px;
+}
+
+#startbtn{
+    display:none;
+    border: 2px solid white;
+    background-color: black;
+}
+
+#setumeibtn{
+    border: 2px solid white;
+    background-color: black;
+}
+
+#back{
+    border: 2px solid white;
+    background-color: black;
+}
+
+#ContinueBtn{
+    position: fixed;
+    display:none;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    font-size:20px;
+}
+#resetbtn,#resultbtn,#resultkotae{
+    position: fixed;
+    display:none;
+    left:50%;
+    transform: translate(-50%,-50%); 
+    font-size:20px;
+}
+
+ul {
+  display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid red;
+    list-style: none;
+    background-color: black;
+    }
+
+#timer{
+    display:none;
+    font-size: 640%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-50%);  
+}
+
+input,.anime {
+    background: rgba(0,0,0,0);
+    border-radius: 20px;
+    color: white;
+}
+
+#resetbtn{
+    top:80%;
+}
+
+#resultbtn{
+    top:55%;
+}
+
+#resultkotae{
+    top:20%;
+}
